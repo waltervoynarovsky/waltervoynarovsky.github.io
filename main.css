@@ -68,6 +68,18 @@ h4 {
   width: 100%;
   height: auto;
 }
+.projects .project4__img {
+  width: 100%;
+  height: auto;
+}
+.projects .project5__img {
+  width: 100%;
+  height: auto;
+}
+.projects .project6__img {
+  width: 100%;
+  height: auto;
+}
 
 .skills__logos {
   display: flex;
@@ -92,6 +104,18 @@ h4 {
   padding: 1rem;
 }
 
+.project4 {
+  display: none;
+}
+
+.project5 {
+  display: none;
+}
+
+.project6 {
+  display: none;
+}
+
 .codeButton {
   border: 0.8px solid black;
   background-color: #fff;
@@ -101,10 +125,6 @@ h4 {
   margin: 1rem;
   font-weight: bolder;
   padding: 0.4rem;
-}
-.codeButton .codeImg {
-  width: 100%;
-  height: auto;
 }
 
 .previewButton {
@@ -160,12 +180,16 @@ footer p {
   }
   .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+  }
+  h3 {
+    margin-left: 6%;
   }
   h1 {
     text-align: left;
     max-width: 50vw;
     margin-right: 10%;
+    margin-left: 5%;
   }
   .header__img {
     display: inline;
@@ -173,9 +197,71 @@ footer p {
     max-width: 20vw;
     margin-right: 20%;
   }
+  .about {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 1rem;
+  }
   .about__img {
-    width: 20%;
+    grid-area: 1/1/6/3;
+  }
+  .about__header {
+    grid-area: 2/3/3/5;
+  }
+  .about__paragraph {
+    grid-area: 3/3/6/5;
+  }
+  .about__img {
+    width: 100;
     height: auto;
     margin-left: 5%;
+  }
+  .skills {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .skills__logos {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .project4 {
+    display: block;
+  }
+  .project5 {
+    display: block;
+  }
+  .project6 {
+    display: block;
+  }
+  .project1 {
+    grid-area: 1/1/3/3;
+  }
+  .project2 {
+    grid-area: 1/3/3/5;
+  }
+  .project3 {
+    grid-area: 1/5/3/7;
+  }
+  .project4 {
+    grid-area: 3/1/5/3;
+  }
+  .project5 {
+    grid-area: 3/3/5/5;
+  }
+  .project6 {
+    grid-area: 3/5/5/7;
   }
 }/*# sourceMappingURL=main.css.map */
