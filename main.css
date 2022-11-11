@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sanchez&display=swap");
+* {
+  padding: 0.5rem;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+body {
+  font-family: "Sanchez", serif;
+  color: #393e46;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+nav {
+  text-decoration: none;
+}
+
+.nav__link,
+.nav__get-in-touch {
+  display: none;
+  font-family: "Sanchez", serif;
+  text-decoration: none;
+  color: #393e46;
+}
+
+.about__img {
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header__img {
+  display: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+  margin-left: 20%;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.projects .project1__img {
+  width: 100%;
+  height: auto;
+}
+.projects .project2__img {
+  width: 100%;
+  height: auto;
+}
+.projects .project3__img {
+  width: 100%;
+  height: auto;
+}
+
+.skills__logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2rem;
+  padding: 2rem;
+  gap: 2rem;
+}
+.skills__logos .img-with-text {
+  display: block;
+  margin: 0 auto;
+}
+.skills__logos .img-with-text p {
+  text-align: center;
+}
+
+.project__buttons {
+  display: flex;
+  margin: auto;
+  padding: 1rem;
+}
+
+.codeButton {
+  border: 0.8px solid black;
+  background-color: #fff;
+  color: black;
+  font-family: "Sanchez", serif;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  font-weight: bolder;
+  padding: 0.4rem;
+}
+.codeButton .codeImg {
+  width: 100%;
+  height: auto;
+}
+
+.previewButton {
+  border: 0.8px solid black;
+  background-color: #fff;
+  color: black;
+  font-family: "Sanchez", serif;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  font-weight: bolder;
+  padding: 0.4rem;
+}
+
+footer {
+  min-height: 50px;
+  display: grid;
+  justify-content: space-around;
+  background-color: #393e46;
+  margin: 1rem;
+  padding: 1rem;
+}
+footer .footer_links {
+  background-color: #393e46;
+  justify-content: center;
+}
+footer a {
+  background-color: #393e46;
+  text-decoration: none;
+}
+footer img {
+  width: 35px;
+  height: 35px;
+  border-radius: 70%;
+}
+footer p {
+  background-color: #393e46;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (min-width: 1025px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .nav__link {
+    display: inline;
+  }
+  .nav__get-in-touch {
+    display: inline;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    text-align: left;
+    max-width: 50vw;
+    margin-right: 10%;
+  }
+  .header__img {
+    display: inline;
+    max-height: 20vh;
+    max-width: 20vw;
+    margin-right: 20%;
+  }
+  .about__img {
+    width: 20%;
+    height: auto;
+    margin-left: 5%;
+  }
+}/*# sourceMappingURL=main.css.map */
