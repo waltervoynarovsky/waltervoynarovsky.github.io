@@ -43,6 +43,16 @@ button {
   font-weight: bolder;
 }
 
+.nav__get-in-touch {
+  border: 1px solid #fff;
+  background-color: #3e3636;
+  color: #fff;
+  font-family: "Sanchez", serif;
+  border-radius: 0.3rem;
+  font-weight: bolder;
+  margin-left: 2%;
+}
+
 .about__img {
   width: 60%;
   height: auto;
@@ -249,19 +259,10 @@ form {
   margin-top: -15px;
 }
 
-.h1__form {
+.h4__form {
   text-transform: uppercase;
-  font-size: 3em;
-  position: relative;
-}
-
-.h1__form:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 30%;
-  border-bottom: 4px solid #DE6262;
+  font-size: 2rem;
+  text-align: center;
 }
 
 input {
@@ -333,7 +334,7 @@ input:focus, input:valid, textarea:focus {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .about__img {
     grid-area: 1/1/4/3;
@@ -344,7 +345,7 @@ input:focus, input:valid, textarea:focus {
   }
   .about__paragraph {
     grid-area: 2/3/4/5;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .about__img {
     width: 80%;
@@ -399,7 +400,7 @@ input:focus, input:valid, textarea:focus {
     grid-area: 3/2/4/3;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1140px) {
   nav {
     display: flex;
     flex-direction: row;
