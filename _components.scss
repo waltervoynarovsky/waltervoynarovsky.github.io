@@ -186,7 +186,7 @@ h4 {
 
 footer {
   min-height: 50px;
-  max-width: 100vw;
+  min-width: 95vw;
   display: grid;
   justify-content: space-around;
   background-color: $color-black;
@@ -219,6 +219,9 @@ footer {
 }
 
 .contact_form {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   height: 455px;
   position: relative;
   padding-top: 20px;
@@ -229,7 +232,7 @@ footer {
 }
 
 .button__contact {
-  width: 100%;
+  width: 95%;
   height: 60px;
 
   cursor: pointer;
@@ -255,7 +258,7 @@ footer {
 
 form {
   color: white;
-  padding: 0px 70px 10px 70px;
+  padding: 1rem;
   margin-top: -15px;
 }
 
