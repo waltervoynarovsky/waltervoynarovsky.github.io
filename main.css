@@ -197,6 +197,7 @@ h4 {
 
 footer {
   min-height: 50px;
+  min-width: 95vw;
   display: grid;
   justify-content: space-around;
   background-color: #393e46;
@@ -226,8 +227,11 @@ footer p {
 }
 
 .contact_form {
-  min-width: 450px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   height: 455px;
+  max-width: 90wv;
   position: relative;
   padding-top: 20px;
   background: #3e3636;
@@ -235,7 +239,7 @@ footer p {
 }
 
 .button__contact {
-  width: 100%;
+  width: 95%;
   height: 60px;
   cursor: pointer;
   display: flex;
@@ -245,8 +249,8 @@ footer p {
   color: white;
   font-size: 1.6em;
   bottom: 0;
-  background: #DE6262;
-  background: linear-gradient(to right, #FFB88C, #DE6262);
+  background: #de6262;
+  background: linear-gradient(to right, #ffb88c, #de6262);
   box-shadow: none;
   box-sizing: border-box;
   outline: none;
@@ -255,7 +259,7 @@ footer p {
 
 form {
   color: white;
-  padding: 0px 70px 10px 70px;
+  padding: 1rem;
   margin-top: -15px;
 }
 
@@ -301,7 +305,7 @@ textarea {
 
 #charNum {
   float: right;
-  color: #DE6262;
+  color: #de6262;
   font-size: 16px;
   letter-spacing: 2px;
   font-weight: bold;
@@ -319,11 +323,13 @@ textarea {
   padding-top: 6px;
 }
 
-input:focus, input:valid, textarea:focus {
+input:focus,
+input:valid,
+textarea:focus {
   opacity: 0.8;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1085) {
   .hey {
     margin-left: 8%;
   }
@@ -400,7 +406,37 @@ input:focus, input:valid, textarea:focus {
     grid-area: 3/2/4/3;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 1055px) {
+  .hey {
+    margin-left: 8%;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  .about__img {
+    grid-area: 1/1/4/3;
+  }
+  .about__header {
+    grid-area: 1/3/2/5;
+    text-align: left;
+  }
+  .about__paragraph {
+    grid-area: 2/3/4/5;
+    font-size: 1.1rem;
+  }
+  .about__img {
+    width: 80%;
+    height: auto;
+    margin-left: 14%;
+  }
+}
+@media (min-width: 1300px) {
   nav {
     display: flex;
     flex-direction: row;

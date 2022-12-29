@@ -109,38 +109,52 @@
       <h2 class="projectsHeader">My Projects</h2>
       <div class="projects" id="projects">
         <div class="project1">
-          <img
-            class="project1__img"
-            src="./images/MacBook Pro 16_ - 53 1.png"
-            alt=""
-          />
+          <a href="https://waltervoynarovsky.github.io/beer-project/">
+            <img
+              class="project1__img"
+              src="./images/project thumbnails/Screenshot 2022-12-29 at 15.10.47.png"
+              alt=""
+            />
+          </a>
           <h4 class="project1__language">React</h4>
-          <h2 class="project1__name">Client Project</h2>
+          <h2 class="project1__name">API Project</h2>
           <p class="project1__paragraph">
-            Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue
-            urna gravida nisl, tortor sapien nec sollicitudin.
+            Website built using React and connected to API to allow user search
+            through BrewDog beers.
           </p>
           <div class="project__buttons">
-            <button class="codeButton">Code &lt;&#47;&gt;</button>
-            <button class="previewButton">Preview &lt;&#47;&gt;</button>
+            <a
+              href="https://github.com/waltervoynarovsky/beer-project/tree/main/src"
+            >
+              <button class="codeButton">Code &lt;&#47;&gt;</button>
+            </a>
+            <a href="https://waltervoynarovsky.github.io/beer-project/"
+              ><button class="previewButton">Preview &lt;&#47;&gt;</button></a
+            >
           </div>
         </div>
 
         <div class="project2">
-          <img
-            class="project2__img"
-            src="./images/MacBook Pro 16_ - 53 1.png"
-            alt=""
-          />
-          <h4 class="project2__language">React</h4>
-          <h2 class="project2__name">Client Project</h2>
+          <a href="https://waltervoynarovsky.github.io/game-project/">
+            <img
+              class="project2__img"
+              src="./images/project thumbnails/Screenshot 2022-12-29 at 15.43.19.png"
+              alt=""
+            />
+          </a>
+
+          <h4 class="project2__language">JavaScript</h4>
+          <h2 class="project2__name">Lord of the Rings trivia</h2>
           <p class="project2__paragraph">
-            Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue
-            urna gravida nisl, tortor sapien nec sollicitudin.
+            Lord of the Rings trivia game built using JavaScript.
           </p>
           <div class="project__buttons">
-            <button class="codeButton">Code &lt;&#47;&gt;</button>
-            <button class="previewButton">Preview &lt;&#47;&gt;</button>
+            <a href="https://github.com/waltervoynarovsky/game-project">
+              <button class="codeButton">Code &lt;&#47;&gt;</button>
+            </a>
+            <a href="https://waltervoynarovsky.github.io/game-project/">
+              <button class="previewButton">Preview &lt;&#47;&gt;</button>
+            </a>
           </div>
         </div>
 
@@ -215,54 +229,6 @@
       </div>
     </main>
     <!--PROJECTS ENDS-->
-    <!-- CONTACT FORM STARTS-->
-    <div class="contact_wrapper">
-      <div class="contact_form">
-        <form id="form">
-          <h4 class="h4__form">get in touch</h4>
-          <div class="input">
-            <i class="fas fa-user"></i>
-            <input
-              type="text"
-              name=""
-              required=""
-              value="Name"
-              placeholder="First Name"
-            />
-          </div>
-          <div class="input">
-            <i class="fas fa-at"></i>
-            <input
-              type="mail"
-              name=""
-              required=""
-              value=""
-              placeholder="yourmail@email.com"
-            />
-          </div>
-          <div class="input">
-            <i class="far fa-comment-alt"></i>
-            <textarea
-              id="subject"
-              name="subject"
-              placeholder="Write something.."
-              onkeyup="countChar(this)"
-              maxlength="90"
-            ></textarea>
-          </div>
-        </form>
-        <button class="button__contact" type="submit" form="form" value="">
-          <i class="fas fa-paper-plane"
-            ><svg viewBox="0 0 512 512" width="50" title="paper-plane">
-              <path
-                d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"
-              />
-            </svg>
-          </i>
-        </button>
-      </div>
-    </div>
-
     <!--FOOTER STARTS-->
     <footer>
       <div class="footer_links" id="footer">
@@ -281,4 +247,5 @@
       <p>walterw@gmail.com</p>
     </footer>
   </body>
+  <script src="/scripts.js"></script>
 </html>
