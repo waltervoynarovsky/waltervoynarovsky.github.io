@@ -132,26 +132,32 @@ h4 {
 
 .projects .project1__img {
   width: 100%;
+  max-height: 612px;
   height: auto;
 }
 .projects .project2__img {
   width: 100%;
+  max-height: 612px;
   height: auto;
 }
 .projects .project3__img {
   width: 100%;
+  max-height: 612px;
   height: auto;
 }
 .projects .project4__img {
   width: 100%;
+  max-height: 612px;
   height: auto;
 }
 .projects .project5__img {
   width: 100%;
+  max-height: 612px;
   height: auto;
 }
 .projects .project6__img {
   width: 100%;
+  max-height: 612px;
   height: auto;
 }
 
