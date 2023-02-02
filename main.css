@@ -59,6 +59,14 @@ button {
   margin-left: 20%;
 }
 
+.about__img {
+  transition: all 0.2s ease-in-out;
+}
+
+.about__img:hover {
+  transform: scale(1.1);
+}
+
 h1 {
   text-align: center;
 }
@@ -130,20 +138,31 @@ h4 {
   text-align: center;
 }
 
+.img-with-text {
+  transition: all 0.2s ease-in-out;
+}
+
+.img-with-text:hover {
+  transform: scale(1.2);
+}
+
 .projects .project1__img {
   width: 100%;
   max-height: 612px;
   height: auto;
+  border-radius: 25px;
 }
 .projects .project2__img {
   width: 100%;
   max-height: 612px;
   height: auto;
+  border-radius: 25px;
 }
 .projects .project3__img {
   width: 100%;
   max-height: 612px;
   height: auto;
+  border-radius: 25px;
 }
 .projects .project4__img {
   width: 100%;
@@ -155,11 +174,49 @@ h4 {
   width: 100%;
   max-height: 612px;
   height: auto;
+  border-radius: 50px;
 }
 .projects .project6__img {
   width: 100%;
   max-height: 612px;
   height: auto;
+  border-radius: 50px;
+}
+.projects .project1__img {
+  transition: all 0.2s ease-in-out;
+}
+.projects .project1__img:hover {
+  transform: scale(1.1);
+}
+.projects .project2__img {
+  transition: all 0.2s ease-in-out;
+}
+.projects .project2__img:hover {
+  transform: scale(1.1);
+}
+.projects .project3__img {
+  transition: all 0.2s ease-in-out;
+}
+.projects .project3__img:hover {
+  transform: scale(1.1);
+}
+.projects .project4__img {
+  transition: all 0.2s ease-in-out;
+}
+.projects .project4__img:hover {
+  transform: scale(1.1);
+}
+.projects .project5__img {
+  transition: all 0.2s ease-in-out;
+}
+.projects .project5__img:hover {
+  transform: scale(1.1);
+}
+.projects .project6__img {
+  transition: all 0.2s ease-in-out;
+}
+.projects .project6__img:hover {
+  transform: scale(1.1);
 }
 
 .project__buttons {

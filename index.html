@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Walter W Portfolio</title>
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
@@ -33,7 +33,7 @@
     <!--ABOUT STARTS-->
     <main>
       <div class="about" id="about">
-        <h2 class="about__header">About me</h2>
+        <h2 class="about__header" data-value="About me">About me</h2>
         <img class="about__img" src="./images/walter3.jpg" alt="" />
         <p class="about__paragraph">
           I’ve always been excited about technology and what happens behind the
@@ -60,7 +60,9 @@
 
       <!--TEHCNICAL SKILLS STARTS-->
       <div class="skills" id="skills">
-        <h2 class="skills__header">Technical Skills</h2>
+        <h2 class="skills__header" data-value="Technical Skills">
+          Technical Skills
+        </h2>
         <p class="skills__paragraph">
           Here are main skills I possesed on my path to become a Cloud Engineer.
           The list is far from nearing completion, as I am seeking to further
@@ -107,7 +109,7 @@
       </div>
       <!--TECHNICAL SKILLS END-->
       <!--PROJECTS STARTS-->
-      <h2 class="projectsHeader">My Projects</h2>
+      <h2 class="projects__header" data-value="My Projects">My Projects</h2>
       <div class="projects" id="projects">
         <div class="project1">
           <a href="https://waltervoynarovsky.github.io/beer-project/">
@@ -121,7 +123,10 @@
           <h2 class="project1__name">API Project</h2>
           <p class="project1__paragraph">
             Website built using React and connected to API to allow user search
-            through BrewDog beers.
+            through BrewDog beers. Initially the page displays all the beers in
+            the API. You can alter displayed items using the search bar or built
+            in filters. You can filter by acidity, alcohol by volume and
+            'classic range'.
           </p>
           <div class="project__buttons">
             <a
@@ -147,7 +152,12 @@
           <h4 class="project2__language">JavaScript</h4>
           <h2 class="project2__name">Lord of the Rings trivia</h2>
           <p class="project2__paragraph">
-            Lord of the Rings trivia game built using JavaScript.
+            Lord of the Rings trivia game built using JavaScript. The game
+            displays 10 randomly selected questions onto the page. Each question
+            has 4 answers to choose from. Answer all 10 questions and click
+            "Submit". The game will then compare player's answers to the correct
+            ones and count the score, displaying a short feedback how good was
+            the player's try.
           </p>
           <div class="project__buttons">
             <a href="https://github.com/waltervoynarovsky/game-project">
@@ -171,6 +181,8 @@
           <h2 class="project3__name">Ticket tracker</h2>
           <p class="project3__paragraph">
             A ticket tracker for software development team, built using React.
+            Each member of the team has it's own counter with buttons to
+            increment and decrement number of tickets.
           </p>
           <div class="project__buttons">
             <a href="https://github.com/waltervoynarovsky/ticket-tracker">
