@@ -261,7 +261,6 @@ h4 {
 
 footer {
   min-height: 50px;
-  min-width: 95vw;
   display: grid;
   justify-content: space-around;
   background-color: #393e46;
@@ -270,6 +269,7 @@ footer {
 }
 footer .footer_links {
   background-color: #393e46;
+  display: flex;
   justify-content: center;
 }
 footer a {

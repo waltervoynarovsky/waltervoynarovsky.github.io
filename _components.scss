@@ -256,7 +256,6 @@ h4 {
 
 footer {
   min-height: 50px;
-  min-width: 95vw;
   display: grid;
   justify-content: space-around;
   background-color: $color-black;
@@ -265,6 +264,7 @@ footer {
 
   .footer_links {
     background-color: $color-black;
+    display: flex;
     justify-content: center;
   }
   a {
